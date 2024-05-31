@@ -1,0 +1,25 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: ../../../SurgeoNet/data/synthetic_yolo/train/ 
+val: ../../../SurgeoNet/data/synthetic_yolo/val/
+test: ../../../SurgeoNet/data/synthetic_yolo/test/
+
+# Keypoints
+kpt_shape: [12, 2]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+# flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+# Classes dictionary
+names:
+  0: Background
+  1: Overholt Clamp
+  2: Metz. Scissor
+  3: Sur. Scissor
+  4: Needle Holder
+  5: Sur. Forceps
+  6: Atr. Forceps
+  7: Scalpel
+  8: Retractor
+  9: Hook
+  10: Lig. Clamp
+  11: Peri. Clamp
+  12: Bowl
+  13: Tong
