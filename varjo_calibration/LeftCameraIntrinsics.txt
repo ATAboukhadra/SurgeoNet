@@ -1,0 +1,11 @@
+# principalPointX principalPointY focalLengthX focalLengthY distortionCoefficient_1 distortionCoefficient_2 distortionCoefficient_3 distortionCoefficient_4 distortionCoefficient_5 distortionCoefficient_6
+0.541640341281891
+0.499485701322556
+1.16790592670441
+1.16790592670441
+-0.842974007129669
+0.455851465463638
+0
+0.593596041202545
+-0.000236781110288575
+-0.00095432554371655

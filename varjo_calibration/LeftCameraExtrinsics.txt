@@ -1,0 +1,17 @@
+# Double precision 4x4 matrix. The matrix usage convention is that they are stored in column-major order and transforms are stacked before column-vector points when multiplying. That is, a pure translation matrix will have the position offset in elements 12..14. Unless otherwise specified, the coordinate system is right-handed: X goes right, Y goes up and negative Z goes forward.
+0.999988496878533
+0.00409079255504173
+0.00250430166231527
+0
+-0.00408887531640368
+0.999991343892442
+-0.000770219958116164
+0
+-0.00250743079489038
+0.000759971320900271
+0.999996567611299
+0
+0
+0
+0
+1
