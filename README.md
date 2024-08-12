@@ -1,11 +1,16 @@
 
-# [MICCAI 2024] SurgeoNet: Realtime 3D Pose Estimation of Articulated Surgical Instruments using a Synthetically-trained Network ([PDF]())
+# [GCPR 2024] SurgeoNet: Realtime 3D Pose Estimation of Articulated Surgical Instruments using a Synthetically-trained Network ([PDF]())
 <!-- ## Overview -->
 > Authors: **Ahmed Tawfik Aboukhadra, Nadia Robertini, Jameel Malik, Ahmed Elhayek, Gerd Reis, Didier Stricker**  
 > Group: **DFKI-AV**
 
 
 This repo contains the training and testing code of SurgeoNet as described in our paper. SurgeoNet is a 3D pose estimator for articulated surgical instruments that contains a YOLOv8 and Transformer networks. Both networks where trained on synthetic data. To the best of our knowledge, our method is the first to estimate 7DoF for surgical instruments that contain an articulation angle e.g. surgical scissors.
+
+<!-- ![Results Image](output/Results.jpg) -->
+<p align="center">
+    <img src="output/Results.jpg" alt="Image" width="50%"/>
+</p>
 
 We provide pretrained networks that can be directly used for inference. In addition, we provide the annotated synthetic data that were used for training along with real data that was captured by a Varjo XR headset for qualitative evaluation purposes. All models and data can be found on our [DFKI cloud](https://cloud.dfki.de/owncloud/index.php/s/YwtRc7MtLdzF8GR).
 
@@ -96,7 +101,7 @@ You can train a new transformer on this dataset with your specific configuration
 6) You can load a specific checkpoint by specifiying `--start_epoch` or test it by adding the `--test` flag and removing the `--train` flag.
 
 
-## Acknowledgments
+<!-- ## Acknowledgments -->
 
 ## Citation
 
