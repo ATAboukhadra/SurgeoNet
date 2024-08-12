@@ -9,7 +9,7 @@ This repo contains the training and testing code of SurgeoNet as described in ou
 
 <!-- ![Results Image](output/Results.jpg) -->
 <p align="center">
-    <img src="output/Results.jpg" alt="Image" width="50%"/>
+    <img src="output/Results.jpg" alt="Image" width="70%"/>
 </p>
 
 We provide pretrained networks that can be directly used for inference. In addition, we provide the annotated synthetic data that were used for training along with real data that was captured by a Varjo XR headset for qualitative evaluation purposes. All models and data can be found on our [DFKI cloud](https://cloud.dfki.de/owncloud/index.php/s/YwtRc7MtLdzF8GR).
