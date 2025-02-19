@@ -4,5 +4,5 @@ python3 train_transformer.py \
     --stereo \
     --rot6d \
     --pos \
-    --train \
+    --cls \
     --test \
