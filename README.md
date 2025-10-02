@@ -106,6 +106,12 @@ You can train a new transformer on this dataset with your specific configuration
 ## Citation
 
 ```
-@InProceedings{
+@inproceedings{aboukhadra2024surgeonet,
+  title={SurgeoNet: Realtime 3D Pose Estimation of Articulated Surgical Instruments from Stereo Images Using a Synthetically-Trained Network},
+  author={Aboukhadra, Ahmed Tawfik and Robertini, Nadia and Malik, Jameel and Elhayek, Ahmed and Reis, Gerd and Stricker, Didier},
+  booktitle={DAGM German Conference on Pattern Recognition},
+  pages={199--211},
+  year={2024},
+  organization={Springer}
 }
 ```
