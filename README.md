@@ -1,5 +1,5 @@
 
-# [GCPR 2024] SurgeoNet: Realtime 3D Pose Estimation of Articulated Surgical Instruments using a Synthetically-trained Network ([PDF]())
+# [GCPR 2024] SurgeoNet: Realtime 3D Pose Estimation of Articulated Surgical Instruments using a Synthetically-trained Network ([PDF](https://arxiv.org/pdf/2410.01293))
 <!-- ## Overview -->
 > Authors: **Ahmed Tawfik Aboukhadra, Nadia Robertini, Jameel Malik, Ahmed Elhayek, Gerd Reis, Didier Stricker**  
 > Group: **DFKI-AV**
